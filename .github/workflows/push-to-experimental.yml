@@ -14,5 +14,5 @@ jobs:
          -u "${{ secrets.WEBHOOK_USER }}:${{ secrets.WEBHOOK_TOKEN }}"
          -H "Accept:application/vnd.github.everest-preview+json"
          -H "Content-Type:application/json"
-         -d {""event_type"":""build""}
+         -d '{"event_type":"build"}'
          https://api.github.com/repos/qooxdoo/test.githubactions.incoming/dispatches
