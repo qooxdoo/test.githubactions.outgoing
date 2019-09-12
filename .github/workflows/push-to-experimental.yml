@@ -1,7 +1,7 @@
-# This action sends a "repository_dispatch" event to the qooxdoo/experimental repository, 
+# This action sends a "repository_dispatch" event to the qooxdoo/test.githubactions.incoming repository, 
 # in order to trigger a build. 
 
-name: Trigger build in qooxdoo/experimental
+name: Trigger build in qooxdoo/test.githubactions.incoming
 on: [push]
 jobs:
   curl:
